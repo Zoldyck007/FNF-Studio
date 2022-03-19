@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">EPGStation Player</string>
+
+    <!-- UI -->
+    <string name="browse_title">EPGStation</string>
+    <string name="settings">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="now_on_recording">Now On Recording</string>
+    <string name="recent_videos">Recent videos</string>
+    <string name="rule_id_is_x">Rule ID %1$s</string>
+    <string name="play_ts">Play TS</string>
+    <string name="play_x">Play %1$s</string>
+    <string name="videos_in_same_rule">Videos in same Rule</string>
+    <string name="search_results">Search Result</string>
+    <string name="movie_player">Movie Player</string>
+    <string name="ip_addr_of_epgstation">IP Address of EPGStation</string>
+    <string name="port_number_of_epgstation">Port Number of EPGStation</string>
+    <string name="version_of_epgstation">Version of EPGStation</string>
+    <string name="reload">Reload</string>
+    <string name="num_of_history">Number of search histories</string>
+
+
+    <!-- Error messages -->
+    <string name="connect_epgstation_failed">Connect to EPGStation API failed. </string>
+    <string name="please_check_ip_and_port">Please Check EPGStation IP Address from Settings menu. </string>
+    <string name="please_install_external_player">Please Install External Player</string>
+    <string name="not_a_valid_ipv4_addr">%1$s is not a Valid IPV4 Address</string>
+    <string name="not_a_valid_port_num">%1$s is not a Valid Port Number</string>
+    <string name="programs_not_found">No program was found containing %1$s is not found</string>
+
+    <!-- Preferences-->
+    <string name="pref_key_ip_addr"                translatable="false">KEY_IP_ADDR</string>
+    <string name="pref_val_ip_addr_default"        translatable="false">192.168.0.0</string>
+    <string name="pref_key_port_num"               translatable="false">KEY_PORT_NUM</string>
+    <string name="pref_val_port_num_default"       translatable="false">8888</string>
+    <string name="pref_key_player"                 translatable="false">KEY_PLAYER</string>
+    <string name="pref_val_player_default"         translatable="false">@string/pref_options_movie_player_val_MX</string>
+    <string name="pref_key_num_of_history"         translatable="false">KEY_NUM_OF_HISTORY</string>
+    <string name="pref_val_num_of_history_default" translatable="false">@string/pref_options_num_of_history_val_3</string>
+
+    <string name="pref_options_movie_player_label_MX">MX Player (Default)</string>
+    <string name="pref_options_movie_player_label_MX_PRO">MX Player Pro</string>
+    <string name="pref_options_movie_player_label_VLC">VLC</string>
+    <string name="pref_options_movie_player_label_INTERNAL">Internal (Not Recommended)</string>
+
+    <string-array name="pref_options_movie_player_label" >
+        <item>@string/pref_options_movie_player_label_MX</item>
+        <item>@string/pref_options_movie_player_label_MX_PRO</item>
+        <item>@string/pref_options_movie_player_label_VLC</item>
+        <item>@string/pref_options_movie_player_label_INTERNAL</item>
+    </string-array>
+
+    <string name="pref_options_movie_player_val_MX"       translatable="false">com.mxtech.videoplayer.ad</string>
+    <string name="pref_options_movie_player_val_MX_PRO"       translatable="false">com.mxtech.videoplayer.pro</string>
+    <string name="pref_options_movie_player_val_VLC"      translatable="false">org.videolan.vlc</string>
+    <string name="pref_options_movie_player_val_INTERNAL" translatable="false">com.daigorian.internal</string>
+
+    <string-array name="pref_options_movie_player_val" >
+        <item>@string/pref_options_movie_player_val_MX</item>
+        <item>@string/pref_options_movie_player_val_MX_PRO</item>
+        <item>@string/pref_options_movie_player_val_VLC</item>
+        <item>@string/pref_options_movie_player_val_INTERNAL</item>
+    </string-array>
+
+
+    <string name="pref_options_num_of_history_label_0" >0</string>
+    <string name="pref_options_num_of_history_label_1">1</string>
+    <string name="pref_options_num_of_history_label_2">2</string>
+    <string name="pref_options_num_of_history_label_3">3 (Default)</string>
+    <string name="pref_options_num_of_history_label_5">5</string>
+    <string name="pref_options_num_of_history_label_8">8</string>
+    <string name="pref_options_num_of_history_label_13">13</string>
+    <string name="pref_options_num_of_history_label_21">21</string>
+
+    <string-array name="pref_options_num_of_history_label" >
+        <item>@string/pref_options_num_of_history_label_0</item>
+        <item>@string/pref_options_num_of_history_label_1</item>
+        <item>@string/pref_options_num_of_history_label_2</item>
+        <item>@string/pref_options_num_of_history_label_3</item>
+        <item>@string/pref_options_num_of_history_label_5</item>
+        <item>@string/pref_options_num_of_history_label_8</item>
+        <item>@string/pref_options_num_of_history_label_13</item>
+        <item>@string/pref_options_num_of_history_label_21</item>
+    </string-array>
+    <string name="pref_options_num_of_history_val_0"  translatable="false">0</string>
+    <string name="pref_options_num_of_history_val_1" translatable="false">1</string>
+    <string name="pref_options_num_of_history_val_2" translatable="false">2</string>
+    <string name="pref_options_num_of_history_val_3" translatable="false">3</string>
+    <string name="pref_options_num_of_history_val_5" translatable="false">5</string>
+    <string name="pref_options_num_of_history_val_8" translatable="false">8</string>
+    <string name="pref_options_num_of_history_val_13" translatable="false">13</string>
+    <string name="pref_options_num_of_history_val_21" translatable="false">21</string>
+
+    <string-array name="pref_options_num_of_history_val" >
+        <item>@string/pref_options_num_of_history_val_0</item>
+        <item>@string/pref_options_num_of_history_val_1</item>
+        <item>@string/pref_options_num_of_history_val_2</item>
+        <item>@string/pref_options_num_of_history_val_3</item>
+        <item>@string/pref_options_num_of_history_val_5</item>
+        <item>@string/pref_options_num_of_history_val_8</item>
+        <item>@string/pref_options_num_of_history_val_13</item>
+        <item>@string/pref_options_num_of_history_val_21</item>
+    </string-array>
+    <string name="by_rec_rules">By rules</string>
+    <string name="search_history">Search history</string>
+    <string name="program_name">Program Name</string>
+
+    <string name="pref_key_rules_order_is_newest_first"   translatable="false">KEY_RULES_ORDER_IS_NEWEST_FIRST</string>
+    <string name="set_newest_rule_first">Newest rule first</string>
+    <string name="set_oldest_rule_first">Oldest rule first</string>
+
+    <string name="pref_key_use_custom_base_url"   translatable="false">KEY_RULES_USE_CUSTOM_BASE_URL</string>
+    <string name="use_custom_base_url">Use a custom EPGStation API base URL</string>
+    <string name="pref_key_custom_base_url"   translatable="false">KEY_RULES_CUSTOM_BASE_URL</string>
+    <string name="customize_base_url">Customized Base URL</string>
+    <string name="pref_val_custom_base_url_default"        translatable="false">http://192.168.0.0:8888/api/</string>
+    <string name="do_you_want_to_delete">Do you want to delete %1$s</string>
+    <string name="successfully_deleted">Deleted.</string>
+    <string name="delete_failed">Delete failed</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_subtitle">No subtitle</string>
+    <string name="start_end_duration">%1$s - %2$s (%3$d min.)</string>
+
+
+
+</resources>

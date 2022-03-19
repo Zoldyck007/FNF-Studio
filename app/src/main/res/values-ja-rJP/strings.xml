@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EPGStationの録画を見る</string>
+    <string name="browse_title">EPGStation</string>
+    <string name="settings">設定</string>
+    <string name="recent_videos">最近の録画</string>
+    <string name="rule_id_is_x">ルールID %1$s</string>
+    <string name="play_ts">TSを再生</string>
+    <string name="play_x">%1$sを再生</string>
+    <string name="videos_in_same_rule">同じルールの録画</string>
+    <string name="search_results">検索結果</string>
+    <string name="connect_epgstation_failed">EPGStationに接続できませんでした.　</string>
+    <string name="please_check_ip_and_port">設定メニューからIPアドレスを確認してください. </string>
+    <string name="ip_addr_of_epgstation">EPGStationのIPアドレス</string>
+    <string name="movie_player">録画を再生するプレーヤー</string>
+    <string name="please_install_external_player">外部プレーヤーをインストールしてください</string>
+    <string name="port_number_of_epgstation">EPGStation の PORT番号</string>
+    <string name="pref_options_movie_player_label_MX">MX Player (デフォルト)</string>
+    <string name="pref_options_movie_player_label_MX_PRO">MX Player Pro</string>
+    <string name="pref_options_movie_player_label_VLC">VLC</string>
+    <string name="pref_options_movie_player_label_INTERNAL">内蔵 (非推奨)</string>
+    <string name="settings_title">設定</string>
+    <string name="not_a_valid_ipv4_addr">%1$s は有効なIPv4アドレスではありません</string>
+    <string name="not_a_valid_port_num">%1$s は有効なポート番号ではありません</string>
+    <string name="version_of_epgstation">EPGStationのバージョン</string>
+    <string name="now_on_recording">録画中</string>
+    <string name="reload">録画の再読み込み</string>
+    <string name="programs_not_found">%1$s を含む録画は見つかりませんでした</string>
+    <string name="num_of_history">検索履歴の数</string>
+    <string name="pref_options_num_of_history_label_0">0</string>
+    <string name="pref_options_num_of_history_label_1">1</string>
+    <string name="pref_options_num_of_history_label_2">2</string>
+    <string name="pref_options_num_of_history_label_3">3 (デフォルト)</string>
+    <string name="pref_options_num_of_history_label_5">5</string>
+    <string name="pref_options_num_of_history_label_8">8</string>
+    <string name="pref_options_num_of_history_label_13">13</string>
+    <string name="pref_options_num_of_history_label_21">21</string>
+    <string name="by_rec_rules">録画ルール</string>
+    <string name="search_history">検索履歴</string>
+    <string name="program_name">番組名</string>
+    <string name="set_newest_rule_first">録画ルールを新しい順に並べ替え</string>
+    <string name="set_oldest_rule_first">録画ルールを古い順に並べ替え</string>
+    <string name="use_custom_base_url">API Base URLを編集する</string>
+    <string name="customize_base_url">API Base URL</string>
+    <string name="do_you_want_to_delete">%1$s を削除しますか</string>
+    <string name="successfully_deleted">削除しました。</string>
+    <string name="delete_failed">削除に失敗しました</string>
+    <string name="delete">削除</string>
+    <string name="cancel">キャンセル</string>
+    <string name="no_subtitle">字幕なし</string>
+    <string name="start_end_duration">%1$s ～ %2$s (%3$d分)</string>
+
+</resources>
